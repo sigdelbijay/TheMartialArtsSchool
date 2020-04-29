@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <TableRow
+            android:padding="10dp"
+            android:background="@color/colorPrimary">
+            <TextView
+                android:text="#"
+                android:layout_width="40dp"
+                android:textStyle="bold"/>
+            <TextView
+                android:text="Demonstrate the following KaeshiWaza(self-defense techniques)"
+                android:layout_width="200dp"
+                android:textStyle="bold"/>
+            <TextView
+                android:text="Score (1-5)"
+                android:layout_width="60dp"
+                android:textStyle="bold"/>
+        </TableRow>
+
+        <TableRow
+            android:padding="10dp"
+            android:background="@color/colorPattern">
+            <TextView
+                android:text="1"
+                android:layout_width="40dp"/>
+            <TextView
+                android:text="Aggressive handshake"
+                android:layout_width="200dp"/>
+            <EditText
+                android:id="@+id/editText1"
+                android:inputType="number"
+                android:layout_width="60dp"/>
+        </TableRow>
+        <TableRow
+            android:padding="10dp"
+            android:background="@color/colorWhite">
+            <TextView
+                android:text="2"
+                android:layout_width="40dp"/>
+            <TextView
+                android:text="Inside wrist grip"
+                android:layout_width="200dp"/>
+            <EditText
+                android:id="@+id/editText2"
+                android:inputType="number"
+                android:layout_width="60dp"/>
+        </TableRow>
+        <TableRow
+            android:padding="10dp"
+            android:background="@color/colorPattern">
+            <TextView
+                android:text="3"
+                android:layout_width="40dp"/>
+            <TextView
+                android:text="Outside wrist grip"
+                android:layout_width="200dp"/>
+            <EditText
+                android:id="@+id/editText3"
+                android:inputType="number"
+                android:layout_width="60dp"/>
+        </TableRow>
+        <TableRow
+            android:padding="10dp"
+            android:background="@color/colorWhite">
+            <TextView
+                android:text="4"
+                android:layout_width="40dp"/>
+            <TextView
+                android:text="Both hands holding wrist"
+                android:layout_width="200dp"/>
+            <EditText
+                android:id="@+id/editText4"
+                android:inputType="number"
+                android:layout_width="60dp"/>
+        </TableRow>
+        <TableRow
+            android:padding="10dp"
+            android:background="@color/colorPattern">
+            <TextView
+                android:text="5"
+                android:layout_width="40dp"/>
+            <TextView
+                android:text="Both wrists held"
+                android:layout_width="200dp"/>
+            <EditText
+                android:id="@+id/editText5"
+                android:inputType="number"
+                android:layout_width="60dp"/>
+        </TableRow>
+        <TableRow
+            android:padding="10dp"
+            android:background="@color/colorWhite">
+            <TextView
+                android:text="6"
+                android:layout_width="40dp"/>
+            <TextView
+                android:text="Headlock side"
+                android:layout_width="200dp"/>
+            <EditText
+                android:id="@+id/editText6"
+                android:inputType="number"
+                android:layout_width="60dp"/>
+        </TableRow>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=">> next"
+            android:textStyle="bold"
+            android:background="@color/colorPrimary"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:onClick="nextCriteria"
+            />
+
+    </TableLayout>
+
+</ScrollView>

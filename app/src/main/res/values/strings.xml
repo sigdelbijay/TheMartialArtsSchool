@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">TheMartialArtsSchool</string>
+    <string name="username_text">Username</string>
+    <string name="password_text">Password</string>
+    <string name="login_text">Login</string>
+    <string name="instructor_login">Instructor Login</string>
+    <string name="username">fg</string>
+    <string name="password">fg</string>
+</resources>
